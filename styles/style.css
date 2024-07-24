@@ -1,0 +1,27 @@
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  border: 2px solid salmon;
+  /* margin-top: 10px; */
+}
+.border{
+    border: 2px solid blue;
+}
+
+.title {
+  font-size: 2rem;
+  position: relative;
+  left: 100%;
+  /* right: 60px; */
+  top: 100%;
+  /* bottom: 2000px; */
+}
